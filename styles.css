@@ -1,0 +1,232 @@
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px;
+    height: 35px;
+    width: 180px;
+}
+
+h3, p {
+    margin: 20px
+}
+
+
+/*Website Style Sections*/
+.colors {
+    list-style: none;
+    border: solid black 2px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: grid;
+    align-content: stretch;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fonts {
+    border: solid black 2px;
+    list-style: 2px solid;
+    margin-bottom: 5px;
+    display: grid;
+    /* width: 500px; */
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: stretch;
+}
+
+.text-styles {
+    border: solid black 2px;
+    margin-bottom: 5px;
+}
+
+.add-styles {
+    border: solid black 2px;
+    list-style: 2px solid;
+    margin-bottom: 5px;
+}
+
+/* Color Style Section */
+#gainsboro {
+    position: relative;
+    display: grid;
+    margin-right: 20px;
+    margin-block: 20px 20px;
+    height: 50px;
+    width: 180px;
+    list-style: none;
+    text-align: center;
+}
+
+#gainsboro::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #DCDCDC;
+    z-index: -1;
+}
+
+#tan {
+    position: relative;
+    display: grid;
+    margin-block: 20px 20px;
+    width: 180px;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    /* border: 2px solid; */
+}
+
+#tan::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #D2B48C;
+    z-index: -1;
+}
+
+#dimgray {
+    position: relative;
+    display: grid;
+    margin-block: 20px 20px;
+    height: 50px;
+    width: 180px;
+    list-style: none;
+    text-align: center;
+    /* border: 2px solid; */
+}
+
+#dimgray::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #696969;
+    z-index: -1;
+}
+
+#linen {
+    position: relative;
+    display: grid;
+    margin-block: 20px 20px;
+    height: 50px;
+    width: 180px;
+    list-style: none;
+    text-align: center;
+    /* border: 2px solid; */
+}
+
+#linen::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #FAF0E6;
+    z-index: -1;
+}
+
+#sienna {
+    position: relative;
+    display: grid;
+    margin-block: 20px 20px;
+    height: 50px;
+    width: 180px;
+    list-style: none;
+    text-align: center;
+    /* border: 2px solid; */
+    color: white;
+}
+
+#sienna::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #A0522D;
+    z-index: -1;
+}
+
+/* Font Style Section */
+.zenkaku {
+    font-family: 'Zen Kaku Gothic New';
+    /* margin-right: 20px; */
+    /* margin-left: 200px; */
+}
+
+#font1 {
+    text-decoration: underline;
+}
+
+.tenorsans {
+    font-family: 'Tenor Sans';
+    margin-right: 20px;
+    margin-left: 200px;
+}
+
+#font2 {
+    text-decoration: underline;
+}
+
+.montserrat {
+    font-family: 'Montserrat';
+}
+
+#font3 {
+    text-decoration: underline;
+}
+
+#regular {
+    font-style: normal;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+/* Element Text Style Section */
+#nav {
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: 400;
+    font-size: 19px;
+}
+
+#mainheader {
+    font-family: 'Tenor Sans';
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#subheading {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 26px;
+}
+
+#paragraph {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* Additional Styles Section */
